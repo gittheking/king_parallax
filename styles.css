@@ -1,0 +1,23 @@
+body {
+	background-color: #333333;
+}
+
+#king1, #king2, #king3, #king4, #king5{
+	position: relative;
+}
+
+#king1 {
+	z-index: 4;
+}
+
+#king2 {
+	z-index: 3;
+}
+
+#king3 {
+	z-index: 2;
+}
+
+#king4 {
+	z-index: 1;
+}
