@@ -85,7 +85,6 @@
 				$(document).mousemove(function(event){
 					var moveX = event.pageX - centerX;
 					var moveY = event.pageY - centerY;
-					// console.log("("+moveX+","+moveY+")");
 					$("#king1").css({top: (top + moveY/4).toString(), left: (left + moveX/4).toString() });
 					$("#king2").css({top: (top + moveY/8).toString(), left: (left - 235 + moveX/8).toString() });
 					$("#king3").css({top: (top + moveY/16).toString(), left: (left - 470 + moveX/16).toString()});
